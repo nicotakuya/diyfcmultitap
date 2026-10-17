@@ -2,9 +2,7 @@
 
 ## overview
 
-multitap for famicom.
-
-powered by arduino.
+ファミコンのマルチタップの自作です。4人用はArduinoで動きます。2人用はマイコン不要で配線するだけ作れます。
 
 ## files
 
@@ -12,8 +10,32 @@ FCMULTITAP.ino : program(Arduino).
 
 FC_TAP_SFC.COMP : PCB CAD data(CADLUS X)
 
+## Parts
+
+・U1: ATmega168/328(Arduinoを書き込む)   http://akizukidenshi.com/catalog/g/gI-03142/
+
+・X1: 16MHzセラミック発振子   http://akizukidenshi.com/catalog/g/gP-09576/
+
+・CN1: 6pinピンヘッダ 
+
+・CN2: ファミコン拡張端子用コネクタ  延長ケーブルを流用
+
+・CN3/4/5/6: Dsub15pinオス型  http://akizukidenshi.com/catalog/g/gC-00025/
+
+・R1: 10k ohm 抵抗
+
+・R2: 3.3k ohm 抵抗
+
+・C1/2/3: 0.1μF コンデンサ
+
+・LED1: LED 
+
+・Fuse: リセッタブルヒューズ  http://akizukidenshi.com/catalog/g/gP-12911/
+
 ## images
 
 ![fcmultitap](https://user-images.githubusercontent.com/5597377/131260214-092b5fe4-1d2f-44fa-83aa-7dd78e52f2f9.png)
 
+## Movie
 
+https://www.youtube.com/watch?v=1-oePBSOBHg
