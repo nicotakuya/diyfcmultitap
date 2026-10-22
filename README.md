@@ -1,4 +1,5 @@
 # DIY FC Multitap
+<img width="1052" height="487" alt="Image" src="https://github.com/user-attachments/assets/d8a76547-5277-4c4b-8a5c-40906ce45ed4" />
 
 ## overview
 
@@ -10,9 +11,9 @@
 
 ## files
 
-FCMULTITAP.ino : プログラムです。Arduino IDEで実行します。
+・FCMULTITAP.ino : プログラムです。Arduino IDEで実行します。
 
-FC_TAP_SFC.COMP : 基板CADのデータ(CADLUS X用)
+・FC_TAP_SFC.COMP : 基板CADのデータ(CADLUS X用)。
 
 自作の動作テストプログラム「FC MULTITAP TEST」です。ファミコンで動きます。
 https://github.com/nicotakuya/FC_MULTITAP_TEST
